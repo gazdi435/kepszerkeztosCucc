@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formosDiv">
+        <form action="">
+            <select name="" id="" size="4">
+                <option value="bloodMoon" onclick="kinagyit(this)">Blood moon</option>
+                <option value="orionNebula" onclick="kinagyit(this)">Orion nebula</option>
+                <option value="sagitariusA" onclick="kinagyit(this)">Sagitarius A</option>
+                <option value="negyedikValami" onclick="kinagyit(this)">Negyedik valami</option>
+            </select>
+        </form>
+    </div>
+
+    <div id="masikDiv">
+        <img src="" alt="" id="kep" height="100%" width="100%">
+    </div>
+
+    <div>
+        <input type="range" min="10" max="800" id="magassag" value="800" onchange="valtozas()">
+        <input type="range" min="10" max="800" id="szelesseg" value="800" onchange="valtozas()">
+    </div>
+
+    <div>
+        <label for="blur">Blur</label>
+        <input type="checkbox" name="blur" id="blur" onclick="Blur()">
+        <label for="atlatszo">atlatszo</label>
+        <input type="checkbox" name="atlatszo" id="atlatszo" onclick="Atlatszo()">
+    </div>
+
+    <div>
+        
+    </div>
+</body>
+</html>

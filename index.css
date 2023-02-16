@@ -1,0 +1,12 @@
+#masikDiv{
+    background-color: rgba(100, 200, 255, 0.2);
+    border-radius: 10px;
+    float: right;
+    margin-right: 1cm;
+    border: 5px black solid;
+}
+
+#formosDiv {
+    margin-left: auto;
+}
+
